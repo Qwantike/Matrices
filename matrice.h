@@ -31,4 +31,6 @@ public:
     void saisir();
     // Test Inversible
     bool inversible();
+    // Déterminant
+    // float det();
 };

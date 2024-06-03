@@ -8,3 +8,5 @@ matrice *matrice_transpos(matrice M);
 matrice *copie(matrice M);
 bool compatible(matrice A, matrice B);
 matrice *multiplication(matrice A, matrice B);
+matrice *minor(matrice M, int a, int b);
+float det(matrice M);

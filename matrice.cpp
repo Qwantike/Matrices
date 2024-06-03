@@ -116,3 +116,28 @@ void matrice::saisir()
 bool matrice::inversible()
 {
 }
+
+/* float matrice::det()
+{
+    if (this->m != this->n)
+    {
+        return -1;
+    }
+    if (this->m == 2 & this->n == 2)
+    {
+        float r = ((this->T[0][0]) * (this->T[1][1])) - ((this->T[0][1]) * (this->T[1][0]));
+        return r;
+    }
+    else
+    {
+        for (int i = 0; i < this->m; i++)
+        {
+            for (int j; j < this->n; j++)
+            {
+                matrice *M = minor((*this), i, j);
+                float r = ((j % 2) - 2) * M->det();
+                return r;
+            }
+        }
+    }
+} */
